@@ -20,7 +20,7 @@ var urlencodedParser = bodyParser.urlencoded({
 const Call = require("./model/call");
 const cors = require("cors");
 
-app.use(cors("http://localhost:3000/"));
+app.use(cors("https://call-1lhl.onrender.com"));
 
 mongoose
   .connect(
